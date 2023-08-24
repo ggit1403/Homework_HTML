@@ -1,0 +1,29 @@
+.text_shadow_center_bold {
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    text-shadow: 4px 4px 4px #bb7272;
+}
+
+.text_red {
+    color: red;
+}
+
+.text_blue_italic {
+    color: blue;
+    font-style: italic;
+}
+
+.text_justify {
+    text-align: justify;
+}
+
+.ident {
+    padding-left: 1rem;
+}
+
+.gach_chan_phai_xam {
+    color: dimgrey;
+    text-decoration: underline;
+    text-align: right;
+}

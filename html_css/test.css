@@ -1,0 +1,125 @@
+h1 {
+    color: aqua;
+}
+
+#title {
+    /* dùng thẻ id*/
+    color: brown;
+}
+
+.test_h1 {
+    /* dùng thẻ class */
+    color: cornflowerblue;
+}
+
+.color_green_text {
+    color: green;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+div ol {
+    /* 2 thẻ div và ol cùng màu */
+    color: rgb(16, 5, 222);
+}
+
+section>h1 {
+    /* thẻ h1 nằm trong section có màu brown*/
+    color: brown;
+}
+
+.tag_div {
+    color: chartreuse;
+}
+
+/*section+h1 {
+    color: blueviolet;
+}*/
+section~h1 {
+    /* các thẻ h1 nằm sau section*/
+    font-style: italic;
+}
+
+div h1 {
+    font-style: italic;
+}
+
+li:hover {
+    background-color: green;
+}
+
+#li1_1 {
+    /* 100 điểm nên 0 được ưu tiên và khai báo trc*/
+    color: blueviolet;
+}
+
+li#li1_1 {
+    /* 101 điểm nên đưuọc ưu tiên*/
+    color: crimson;
+}
+
+.line1_1 {
+    /* điểm ưu tiên thấp nhưng có từ khóa !important*/
+    color: rgb(51, 42, 42) !important;
+}
+
+.box {
+
+    height: 100px;
+}
+
+.bxred {
+    /* đơn vị tuyệt đối*/
+    background-color: red;
+    width: 100px;
+}
+
+.bxblue {
+    /* đơn vị tương đối*/
+    background-color: blue;
+    width: 20%;
+    /* 20% kích cỡ chiều rộng section
+    20% *1000px = 200px*/
+}
+
+.bxgreen {
+    background-color: green;
+    width: 20vw;
+    /* 20 % kích cỡ chiều rộng màn hình*/
+}
+
+.bxvmin {
+    background-color: blueviolet;
+    width: 10vmin;
+}
+
+.bxvmax {
+    background-color: black;
+    width: 10vmax;
+}
+
+section.row {
+    width: 1000px;
+}
+
+html {
+    font-size: 16px;
+}
+
+ul>li>h2 {
+    font-size: 1rem;
+    /* 2rem = 16px*2 = 32px*/
+    color: #ff0000;
+}
+
+.h2_1_em {
+    font-size: 1em;
+    /* bằng font-size lớp cha gần nhất*/
+}
+
+ul {
+    font-size: 40px;
+}

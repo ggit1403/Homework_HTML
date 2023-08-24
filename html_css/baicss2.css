@@ -1,0 +1,32 @@
+.bg_tim {
+    background-color: rgb(121, 15, 121);
+}
+
+.chu_xanh {
+    color: rgb(11, 209, 37);
+}
+
+.chu_tim {
+    color: rgb(121, 15, 121);
+}
+
+.bg_vang {
+    background-color: yellow;
+}
+
+.chu_dam {
+    font-weight: bold;
+}
+
+.chu_kochan {
+    font-family: sans-serif;
+}
+
+.chu_tahoma {
+    font-family: Tahoma;
+}
+
+.den_nghieng {
+    font-weight: bold;
+    font-style: italic;
+}

@@ -1,0 +1,28 @@
+.do_bong {
+    color: blue;
+    text-shadow: -3px 0px 0px #a8bbda;
+}
+
+.text_blue {
+    color: blue;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.boi_den {
+    font-weight: bold;
+}
+
+.text_vang {
+    background-color: yellow;
+}
+
+.chu_nghieng {
+    font-style: italic;
+}
+
+.text_align_last {
+    text-align-last: center;
+}
