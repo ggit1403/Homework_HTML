@@ -1,0 +1,22 @@
+h1 {
+    width: 50%;
+    min-width: 500px;
+    /* min-height: thường ko dùng vì phụ thuộc vào nội dung */
+    border: 20px solid red;
+    border-radius: 25px 25px 200px 200px;
+    /* border-image-source: ;
+    border-image-width: ; */
+    padding: 30px;
+    margin: 150px;
+
+}
+
+body {
+    background-repeat: no-repeat
+        /* lặp */
+    ;
+    /* background-position: 1%; */
+    /* background-attachment: fixed; */
+
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyZEJ9nuBcwKUkakXktqr5DbCFE5_d-8DeIA&usqp=CAU");
+}
