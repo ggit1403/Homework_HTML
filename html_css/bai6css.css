@@ -1,0 +1,51 @@
+.border_circle {
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.tinhot {
+    font-family: arial;
+    color: red;
+    border: 500px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.526);
+    padding: 10px 20px;
+}
+
+.noi_dung {
+    padding-left: 20px;
+    padding-right: 25px;
+}
+
+.noi_dung span {
+    padding: 10px;
+}
+
+.noi_dung .border_ {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.318);
+    padding-bottom: 10px;
+}
+
+span.text_grey {
+    color: grey;
+    padding-left: 0px;
+}
+
+span.text_red {
+    color: red;
+}
+
+span.text_grey_bg {
+    color: rgba(124, 120, 120, 0.94);
+    background-color: rgba(128, 128, 128, 0.445);
+    padding: 0px;
+}
+
+.last {
+    border: none;
+    padding-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+}

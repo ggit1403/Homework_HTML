@@ -1,0 +1,32 @@
+.border {
+    width: 400px;
+    border-top: 2px solid blue;
+    background-color: rgba(123, 161, 181, 0.158);
+    padding: auto;
+}
+
+.border .title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+.border .noi_dung {
+    padding: 20px;
+}
+
+.border .text_grey {
+    color: rgb(101, 99, 99);
+}
+
+img {
+    width: 360px;
+}
+
+.tintuc {
+    margin-left: -20px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}

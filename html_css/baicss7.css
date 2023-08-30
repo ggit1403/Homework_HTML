@@ -1,0 +1,22 @@
+.news {
+    width: 300px;
+    background-color: rgba(128, 128, 128, 0.553);
+    padding: auto;
+
+}
+
+.text {
+    font-weight: bold;
+    padding-top: 10px;
+
+}
+
+.text_red {
+    color: red;
+    font-weight: normal;
+    padding-bottom: 0px;
+}
+
+a {
+    text-decoration: none;
+}
