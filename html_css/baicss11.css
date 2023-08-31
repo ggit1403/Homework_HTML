@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.border_box {
+    border: 2px solid rgba(190, 175, 175, 0.942);
+    border-radius: 20px;
+    width: 640px;
+}
+
+.thoi_su {
+    border-bottom: 1px solid black;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.noi_dung {
+    width: 600px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.border_dot {
+    border-bottom: 2px dashed grey;
+    margin-bottom: 10px;
+
+}
+
+
+.phan_1 {
+    width: 278px;
+    float: left;
+    padding-left: 10px;
+
+}
+
+.phan_2 {
+    width: 278px;
+    float: right;
+}
+
+.clr {
+    clear: both;
+}
+
+li {
+    list-style: none;
+    padding-bottom: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 268px;
+}

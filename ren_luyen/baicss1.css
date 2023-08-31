@@ -1,0 +1,41 @@
+.news {
+    width: 800px;
+    padding-left: 10px;
+}
+
+.news .title {
+    border-bottom: 2px solid grey;
+    padding: 10px;
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+
+.news .noi_dung {
+    margin-right: 10px;
+    border-right: 1px solid rgba(145, 139, 139, 0.79);
+}
+
+.news .thoi_su {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.news .border_bot {
+    border-bottom: 1px solid rgba(140, 136, 136, 0.738);
+    margin-right: 10px;
+}
+
+.news .phan_1 {
+    background-color: rgba(237, 227, 227, 0.336);
+    margin-bottom: 10px;
+
+}
+
+.news span {
+    margin: 10px;
+}
+
+.news img {
+
+    margin-right: 20px;
+}
