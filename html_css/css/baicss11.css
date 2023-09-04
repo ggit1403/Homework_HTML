@@ -38,6 +38,7 @@
 .phan_2 {
     width: 278px;
     float: right;
+    margin-right: 5px;
 }
 
 .clr {
@@ -56,5 +57,5 @@ a {
 }
 
 img {
-    width: 268px;
+    width: 272px;
 }

@@ -1,5 +1,5 @@
 .news {
-    width: 800px;
+    width: 700px;
     padding-left: 10px;
 }
 
@@ -8,6 +8,11 @@
     padding: 10px;
     padding-left: 0;
     margin-bottom: 10px;
+}
+
+.padding_left {
+    padding-left: 10px;
+
 }
 
 .news .noi_dung {
@@ -23,19 +28,38 @@
 .news .border_bot {
     border-bottom: 1px solid rgba(140, 136, 136, 0.738);
     margin-right: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .news .phan_1 {
-    background-color: rgba(237, 227, 227, 0.336);
-    margin-bottom: 10px;
+    background-color: rgba(234, 8, 8, 0.336);
+
+    /* background-clip: padding-box; */
 
 }
 
-.news span {
-    margin: 10px;
+.phan_1 img {
+    width: 400px;
+    float: left;
+
 }
 
-.news img {
+.phan_1 .nd_anh_1 {
+    width: 270px;
+    float: right;
 
-    margin-right: 20px;
+
+}
+
+.phan_1 .text_grey {
+    color: grey;
+}
+
+.padding_right {
+    padding-right: 10px;
+}
+
+.clr {
+    clear: both;
 }
