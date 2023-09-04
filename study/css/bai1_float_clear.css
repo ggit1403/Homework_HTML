@@ -1,0 +1,40 @@
+header {
+    width: 100%;
+    height: 50px;
+    background-color: green;
+}
+
+section {
+    width: 100%;
+    background-color: rgba(223, 223, 85, 0.758);
+
+}
+
+span {
+    text-align: right;
+    vertical-align: bottom;
+}
+
+main {
+    width: 70%;
+    height: 150px;
+    background-color: red;
+    float: left;
+}
+
+aside {
+    width: 30%;
+    height: 120px;
+    background-color: orange;
+    float: right;
+}
+
+.clr {
+    clear: both;
+}
+
+footer {
+    width: 100%;
+    height: 30px;
+    background-color: blue;
+}

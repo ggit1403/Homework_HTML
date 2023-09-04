@@ -1,0 +1,12 @@
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 200px;
+    margin: auto;
+    box-shadow: 5px 5px 30px 5px red
+        /* inset */
+    ;
+}
