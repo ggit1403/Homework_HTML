@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.border_box {
+    width: 600px;
+    height: 800px;
+    border: 1px solid grey;
+    padding: 20px;
+    position: relative;
+}
+
+/* .title {
+     border-bottom: 2px dashed grey; 
+
+margin: 20px;
+
+} */
+.border_bot {
+    border-bottom: 2px dashed grey;
+
+    margin: 20px 0;
+}
+
+.img_1 img {
+    width: 300px;
+}
+
+.img_2 img {
+    width: 200px;
+}
+
+.tin_tuc_1 {
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    left: 330px;
+}
+
+.tin_tuc_2 {
+    padding: 10px;
+    position: absolute;
+    top: 355px;
+    left: 230px;
+}
+
+.tin_tuc_3 {
+    padding: 10px;
+    position: absolute;
+    top: 600px;
+    left: 230px;
+}

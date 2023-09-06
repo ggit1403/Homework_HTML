@@ -1,63 +1,49 @@
 .news {
-    width: 700px;
-    padding-left: 10px;
+    width: 800px;
+    margin-left: 10px;
 }
 
-.news .title {
-    border-bottom: 2px solid grey;
-    padding: 10px;
-    padding-left: 0;
-    margin-bottom: 10px;
-}
-
-.padding_left {
-    padding-left: 10px;
-
-}
-
-.news .noi_dung {
-    margin-right: 10px;
-    border-right: 1px solid rgba(145, 139, 139, 0.79);
-}
-
-.news .thoi_su {
-    font-weight: bold;
-    font-size: 2rem;
-}
-
-.news .border_bot {
-    border-bottom: 1px solid rgba(140, 136, 136, 0.738);
-    margin-right: 10px;
-    margin-bottom: 10px;
+header {
+    /* padding-left: ; */
     padding-bottom: 10px;
+    border-bottom: 1px solid black;
 }
 
-.news .phan_1 {
-    background-color: rgba(234, 8, 8, 0.336);
+header .Thoi_su {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 0px;
+}
 
-    /* background-clip: padding-box; */
+header span {
+    padding-left: 10px;
+}
+
+
+.border_right {
+    border-right: 1px solid grey;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+.noi_dung {
+    margin-right: 10px;
+}
+
+.phan_1 {
+    background-color: aqua;
 
 }
 
-.phan_1 img {
-    width: 400px;
+.img_left img {
+    width: 340px;
     float: left;
-
 }
 
-.phan_1 .nd_anh_1 {
-    width: 270px;
+.nd_phan_1 {
+    width: 300px;
+    margin-left: 10px;
     float: right;
-
-
-}
-
-.phan_1 .text_grey {
-    color: grey;
-}
-
-.padding_right {
-    padding-right: 10px;
 }
 
 .clr {
