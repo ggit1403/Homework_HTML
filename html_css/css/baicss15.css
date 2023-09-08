@@ -1,0 +1,26 @@
+.backgr {
+    background-color: rgb(27, 208, 42);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    align-items: baseline;
+}
+
+.backgr h3 {
+    color: white;
+}
+
+.border_right {
+
+    border-right: 1px solid white;
+}
+
+.text_left li {
+    padding: 5px 10px;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

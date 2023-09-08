@@ -5,9 +5,10 @@
     background-color: greenyellow;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row-reverse;
     margin-bottom: 20px;
-    align-items: baseline;
-    justify-content: space-evenly;
+    /* align-items: flex-end; */
+    justify-content: center;
 }
 
 .container .item {
@@ -49,5 +50,6 @@
     height: 60%;
     background-color: green;
     margin: 20px;
-    align-self: baseline;
+    align-self: auto;
+    flex-grow: 3;
 }
