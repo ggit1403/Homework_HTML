@@ -1,51 +1,104 @@
-.news {
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.all_margin_left {
     width: 800px;
-    margin-left: 10px;
+    /* height: 400px; */
+    /* background-color: aqua; */
+    padding-left: 20px;
 }
 
-header {
-    /* padding-left: ; */
-    padding-bottom: 10px;
-    border-bottom: 1px solid black;
+/* Phần nội dung thời sự */
+header .title {
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+
 }
 
-header .Thoi_su {
-    font-size: 2rem;
-    font-weight: bold;
-    padding-left: 0px;
-}
-
-header span {
-    padding-left: 10px;
-}
-
-
-.border_right {
-    border-right: 1px solid grey;
+header .title ul li {
+    list-style-type: none;
+    display: inline;
     margin: 10px;
-    margin-bottom: 0px;
 }
 
-.noi_dung {
-    margin-right: 10px;
+header .title .thoi_su {
+    margin-left: 0px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
-.phan_1 {
-    background-color: aqua;
-
+header .border_all {
+    border-bottom: 1px solid black;
+    margin: 10px 0px;
 }
 
-.img_left img {
-    width: 340px;
+/* Phần nội dung border phải */
+.border_noidung_right {
+    border-right: 1px solid black;
+    margin: 10px 10px 0px 0px;
+}
+
+/* Phần nội dung main */
+main {
+    width: 780px;
+    height: 342.7px;
+    /* background-color: rgb(220, 147, 13); */
+}
+
+main img {
+    width: 515px;
     float: left;
 }
 
-.nd_phan_1 {
-    width: 300px;
-    margin-left: 10px;
+main .noidung1 {
+    width: 245px;
     float: right;
 }
 
-.clr {
+main::after {
     clear: both;
+}
+
+main .text_grey {
+    color: grey;
+}
+
+main a {
+    text-decoration: none;
+    color: rgb(109, 106, 106);
+}
+
+main .noidung1 .cmt {
+    margin-left: 10px;
+    color: blue;
+}
+
+/* Phần border bottom cho phần nội dung */
+.border_bot {
+    margin: 10px 10px 10px 0px;
+    border-bottom: 1px solid black;
+}
+
+/* Phần nội dung 2 */
+footer {
+    width: 780px;
+    /* background-color: rgb(201, 182, 219); */
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .noidung_con {
+    width: 250px;
+}
+
+footer .noidung_con img {
+    width: 250px;
+}
+
+footer .noidung_con a {
+    text-decoration: none;
+    color: black;
 }

@@ -1,0 +1,67 @@
+.box {
+    width: 400px;
+    height: 400px;
+    border: 5px solid red;
+    position: relative;
+}
+
+.ball {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    border-radius: 50%;
+    animation: ball 3s infinite linear;
+}
+
+.ball1 {
+    animation-delay: 0.1s;
+}
+
+.ball2 {
+    animation-delay: 0.2s;
+}
+
+.ball3 {
+    animation-delay: 0.3s;
+}
+
+.ball4 {
+    animation-delay: 0.4s;
+}
+
+@keyframes ball {
+    0% {
+        background-color: rgb(255, 251, 0);
+        top: 0;
+        left: 185px;
+    }
+
+    25% {
+        background-color: rgb(255, 0, 0);
+        top: 185px;
+        left: 0;
+    }
+
+    50% {
+        background-color: rgb(255, 0, 230);
+        top: 370px;
+        left: 185px;
+    }
+
+    75% {
+        background-color: rgb(0, 174, 255);
+        top: 185px;
+        left: 370px;
+    }
+
+    100% {
+        background-color: rgb(0, 255, 145);
+        top: 0px;
+        left: 185px;
+    }
+
+
+
+
+}
