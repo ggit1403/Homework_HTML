@@ -88,9 +88,9 @@ main .noidung1 .title_2 h3 {
 
 /* Phần li cho title */
 .noidung1 .title_2 ul li {
-    /* list-style-position: inside; */
-    margin-left: 15px;
-    /* list-style: circle; */
+    list-style-position: inside;
+    /* margin-left: 15px; */
+
 
 }
 
