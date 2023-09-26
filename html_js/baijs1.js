@@ -1,6 +1,6 @@
 
-a = prompt("Nhap a = ", "");
-b = prompt("Nhap b = ", "");
+// a = prompt("Nhap a = ", "");
+// b = prompt("Nhap b = ", "");
 alert(a + 'x + ' + b + '= 0');
 function axb(a, b) {
     if (a == 0 && b == 0) {

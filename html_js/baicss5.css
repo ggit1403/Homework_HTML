@@ -1,0 +1,12 @@
+.nhap_heso {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    /* margin-bottom: 10px; */
+}
+
+.button {
+    width: 60px;
+    height: 30px;
+    border: 1px solid black;
+}
