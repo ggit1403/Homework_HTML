@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="baicss8.css"> -->
+    <style>
+        .box {
+            width: 600px;
+            height: 450px;
+            border: 5px solid rgb(0, 225, 255);
+            background-color: rgba(178, 253, 253, 0.747);
+            position: relative;
+        }
+
+        .ball {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: red;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <input type="button" value="Play" onclick="play()">
+    <input type="button" value="Stop" onclick="stop()">
+    <div class="box">
+        <div class="ball"></div>
+    </div>
+    <script>
+        var ball = document.querySelector(".ball");
+        var box = document.querySelector(".box");
+        var bleft = 0;
+        var btop = 0;
+        var y = 2;
+        var x = 2;
+        var timer;
+        function play() {
+            if ((btop + ball.offsetHeight) > box.offsetHeight || btop < 0) {
+                y = -y;
+            }
+            if ((bleft + ball.offsetWidth) > box.offsetWidth || bleft < 0) {
+                x = -x;
+            }
+            bleft += x;
+            btop += y;
+
+            ball.style.left = bleft + "px";
+            ball.style.top = btop + "px";
+            timer = setTimeout("play()", 1);
+        }
+        function stop() {
+            clearTimeout(timer);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+.main-img {
+    width: 100%;
+}
+
+.small-img {
+    width: 70px;
+    height: 70px;
+    border: 2px solid red;
+    margin-right: 100px;
+}
+
+.cover,
+.cover>.bg {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+}
+
+.cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover>.bg {
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 80;
+    cursor: pointer;
+}
+
+.cover>img {
+    width: 50vw;
+    z-index: 100;
+}

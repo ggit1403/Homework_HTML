@@ -1,0 +1,24 @@
+.box {
+    width: 240px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: aqua;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+}
+
+.hovaten {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 200px;
+    margin-bottom: 20px;
+}

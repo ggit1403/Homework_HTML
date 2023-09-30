@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="baicss10.css">
+</head>
+
+<body>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <script>
+        document.body.onload = function () {
+            mainimg = document.querySelector(".main-img");
+            imgs = document.querySelectorAll(".small-img");
+            imgs.forEach(function (element) {
+                element.onmouseover = function () {
+                    mainimg.src = this.src;
+                }
+            })
+
+            document.querySelector(".cover>.bg").conclick = function () {
+                document.querySelector(".cover").style.display = "none";
+            }
+
+            document.querySelector(".main-img").onclick = function () {
+                document.querySelector(".cover>img").src = this.crs;
+                document.querySelector(".cover").style.display = "flex";
+            }
+        }
+    </script>
+    <div class="cover">
+        <div class="bg"></div>
+        <img src="https://bom.so/q0e6lr" alt="">
+
+    </div>
+    <div class="box-imgs">
+        <img src="https://bom.so/q0e6lr" alt="" class="main-img">
+        <img src="https://bom.so/q0e6lr" alt="" class="small-img">
+        <img src="https://bom.so/Ksef75" alt="" class="small-img">
+        <img src="https://bom.so/EdSzV4" alt="" class="small-img">
+        <img src="https://bom.so/Z6EOlL" alt="" class="small-img">
+
+    </div>
+
+</body>
+
+</html>
