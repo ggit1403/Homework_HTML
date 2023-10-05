@@ -5,6 +5,8 @@
 
 .all_margin_left {
     width: 800px;
+    margin: auto;
+    background-color: rgb(181, 255, 230);
     /* height: 400px; */
     /* background-color: aqua; */
     padding-left: 20px;
