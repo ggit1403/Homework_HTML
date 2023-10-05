@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai jQuery 1</title>
+    <script src="/jQuery/jQuery.js"></script>
+    <style>
+        .box {
+            width: 500px;
+            display: flex;
+            /* justify-content: space-around; */
+            /* flex-wrap: wrap; */
+            align-items: center;
+            flex-direction: column;
+
+        }
+
+        #bt1,
+        #bt2 {
+            padding: 20px;
+            font-size: 30px;
+            /* background-color: rgba(224, 224, 224, 0.729); */
+            /* border: 2px solid red; */
+            background-color: wheat;
+            margin-bottom: 20px;
+            width: 300px;
+
+        }
+
+        #bt3 {
+            padding: 10px;
+            font-size: 30px;
+            font-weight: bold;
+            color: yellow;
+            background-color: green;
+            /* margin-left: 85px; */
+            /* margin-top: 20px; */
+        }
+
+        p {
+            font-size: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- jQuery: hide show toggel -->
+    <div class="box">
+        <button id="bt1"> Click : Ẩn</button>
+        <button id="bt2"> Click : Hiện</button> <br>
+        <button id="bt3"> Click : Toggel</button>
+        <p>Buồn ngủ </p>
+        <p>Về nhà ngủ</p>
+    </div>
+    <script>
+        $(function () {
+            $("#bt1").click(function () {
+                $("p").hide(200);
+            });
+            $("#bt2").click(function () {
+                $("p").show(200);
+            });
+            $("#bt3").click(function () {
+                $("p").toggle('fast');
+            });
+        });
+    </script>
+</body>
+
+</html>
