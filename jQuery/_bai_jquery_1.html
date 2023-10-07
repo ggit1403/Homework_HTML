@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Now Amazing Webpage</title>
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css" />
+    <style>
+        ._item {
+            font-size: 50px;
+            font-weight: 900;
+            border: 2px solid red;
+            background-color: green;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="_item">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8 </div>
+        <div>9</div>
+    </div>
+
+
+    <script type="text/javascript" src="jQuery.js"></script>
+    <script type="text/javascript" src="jQuery_migrate.js"></script>
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('._item').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 3
+            });
+        });
+    </script>
+
+
+
+</body>
+
+</html>
+<html>
